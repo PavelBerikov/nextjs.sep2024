@@ -9,7 +9,7 @@ export default function Home() {
       </form>*/}
         <Form action={'/submit'}>
             <input type="text" name="name" placeholder="Name"/>
-            <button>Sub</button>
+            <button>Submit</button>
         </Form>
     </div>
   );
