@@ -1,5 +1,5 @@
-import { loadCars } from "@/services/carsService";
 import Car from "@/components/car/Car";
+import {loadCars} from "@/server-actions/serverActions";
 
 
 const Cars = async () => {
