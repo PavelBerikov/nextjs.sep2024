@@ -8,10 +8,10 @@ type PropsType = {
 const Car: FC<PropsType> = ({car}) => {
     return (
         <div>
-            <div>{car.id}</div>
-            <div>{car.brand}</div>
-            <div>{car.price}</div>
-            <div>{car.year}</div>
+            <div>id - {car.id}</div>
+            <div>brand - {car.brand}</div>
+            <div>price - {car.price}</div>
+            <div>year - {car.year}</div>
             <hr/>
         </div>
     );
