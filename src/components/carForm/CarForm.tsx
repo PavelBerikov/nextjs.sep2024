@@ -10,7 +10,7 @@ import { addCar } from '@/services/carService';
 const CarForm:FC=  () => {
     const {register, handleSubmit, formState:{errors, isValid}, reset} = useForm<ICar>({mode: 'all', resolver: joiResolver(carValidator)});
     const foo = (car: ICar) => {
-        addCar(car)
+        addCar(car).then(res => console.log(res))
         reset()
     }
 

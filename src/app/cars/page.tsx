@@ -1,8 +1,8 @@
 import {FC} from "react";
 import CarForm from "@/components/carForm/CarForm";
 import Cars from "@/components/cars/Cars";
-import { addCar } from "@/server-actions/serverActions";
 import {ICar} from "@/interfaces/carInterface";
+import { addCar } from "@/services/carService";
 
 type Props = {
     searchParams: Promise<ICar>
